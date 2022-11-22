@@ -25,7 +25,7 @@
         }
         @Override
         public void run() {
-            System.out.println("-RUN-");
+            System.out.println("run ");
             System.out.println(Thread.currentThread().getName() + " d1:" + d1);
             System.out.println(Thread.currentThread().getName() + " d2:" + d2);
             System.out.println(Thread.currentThread().getName() + " d3:" + d3);

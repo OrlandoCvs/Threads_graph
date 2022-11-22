@@ -21,7 +21,6 @@ public class val extends JPanel{
         Arc2D.Float arco = new Arc2D.Float(Arc2D.PIE);
         arco.setFrame(50,10,400,400);
 
-        //departamento1
         arco.setAngleStart(0);
         arco.setAngleExtent(anguloDepa1);
         g2.setColor(Color.BLACK);
@@ -29,7 +28,6 @@ public class val extends JPanel{
         g2.setColor(Color.MAGENTA);
         g2.fill(arco);
 
-        //departamento2
         arco.setAngleStart(anguloDepa1);
         arco.setAngleExtent(anguloDepa2);
         g2.setColor(Color.BLACK);
@@ -37,7 +35,6 @@ public class val extends JPanel{
         g2.setColor(Color.LIGHT_GRAY);
         g2.fill(arco);
 
-        //departamento3
         arco.setAngleStart(anguloDepa1+anguloDepa2);
         arco.setAngleExtent(anguloDepa3);
         g2.setColor(Color.BLACK);

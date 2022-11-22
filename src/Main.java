@@ -9,7 +9,7 @@ import java.awt.*;
             int r3 = 0;
             int r4 = 0;
             JFrame.setDefaultLookAndFeelDecorated(true);
-            JFrame ventana = new JFrame("Grafica");
+            JFrame ventana = new JFrame("grafica ");
             ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             ventana.setBackground(Color.white);
             ventana.setSize(800,800);
